@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure-77l-+^ul*%@mvhwx#!e7tqz8ua(=&pkzj0vmsrs5#%6z1@sw0a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 # Application definition
 
@@ -133,3 +132,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # Directory where uploaded media is saved.
 MEDIA_URL = '/media/'  # Public URL at the browser
+WSGI_APPLICATION = 'vercel_app.wsgi.app'
