@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-77l-+^ul*%@mvhwx#!e7tqz8ua(=&pkzj0vmsrs5#%6z1@sw0a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','mnc-3et2ke54v-abhiramvarreys-projects.vercel.app', '.vercel.app','https://mnc-web-abhiramvarreys-projects.vercel.app/','https://mnc-web-git-main-abhiramvarreys-projects.vercel.app/','https://mnc-2yehopcx6-abhiramvarreys-projects.vercel.app/','https://mnc-web.vercel.app/']
+ALLOWED_HOSTS = ['127.0.0.1','mnc-8qlfb47ix-abhiramvarreys-projects.vercel.app','mnc-3et2ke54v-abhiramvarreys-projects.vercel.app', '.vercel.app','https://mnc-web-abhiramvarreys-projects.vercel.app/','https://mnc-web-git-main-abhiramvarreys-projects.vercel.app/','https://mnc-2yehopcx6-abhiramvarreys-projects.vercel.app/','https://mnc-web.vercel.app/']
 
 # Application definition
 
